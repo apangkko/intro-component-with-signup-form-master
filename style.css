@@ -60,7 +60,7 @@ img {
 }
 
 .tryfree > span {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .signup__form {
@@ -178,7 +178,7 @@ img {
         padding: 2.5rem;
     }
 
-    .signup__form > input {
+    .signup__form input {
         padding-left: 2rem;
         margin-bottom: 1.2rem;
     }
