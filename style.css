@@ -178,7 +178,7 @@ img {
         padding: 2.5rem;
     }
 
-    .signup__form input {
+    .signup__form > .signup__field > input {
         padding-left: 2rem;
         margin-bottom: 1.2rem;
     }
