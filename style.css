@@ -37,12 +37,21 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem 1.5rem;
+    animation: fadeIn 1.5s ease;
 }
 
 .container {
     width: 100%;
     max-width: 90rem;
     text-align: center;
+}
+
+.container:nth-child(1) {
+    animation: slidetoRight 1s ease;
+}
+
+.container:nth-child(2) {
+    animation: slidetoLeft 1s ease;
 }
 
 .signup__heading {
@@ -64,6 +73,7 @@ img {
 }
 
 .signup__form {
+    position: relative;
     background-color: var(--clr-white);
     padding: 1.5rem;
 }
@@ -185,4 +195,14 @@ img {
 
 }
 
+@keyframes fadeIn {
+    from {opacity: 0;}
+}
 
+@keyframes slidetoLeft {
+    from {transform: translateX(50%);}
+}
+
+@keyframes slidetoRight {
+    from {transform: translateX(-50%);}
+}
